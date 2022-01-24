@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Mirrored from themebing.com/html/viewtube/upload-video.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 Jan 2022 05:04:34 GMT -->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Video Uploader - ViewTube Template</title>
+    <link rel="icon" href="assets/images/thumbnail.png">
+    <link rel="stylesheet"
+        href='https://fonts.googleapis.com/css?family=Fira+Sans+Condensed%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7COpen+Sans%3A300%2C400%2C600%2C700%2C800'>
+    <link rel="stylesheet" href='assets/css/default.css'>
+    <link rel="stylesheet" href='assets/css/plugins.css'>
+    <link rel="stylesheet" href='assets/css/style.css'>
+    <link rel="stylesheet" href='assets/css/color.css'>
+    <link id="template-color" rel="stylesheet" href='assets/css/color.css'>
+</head>
+
+<body>
+
+    <div id="preloader">
+        <div class="spinner">
+            <div class="uil-ripple-css">
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <header class="site-header fixed-top">
+        <div class="container-fluid">
+            <div class="row justify-content-between">
+                <div class="col-xl-2 col-lg-2 my-auto d-none d-lg-block">
+                    <div class="d-flex">
+                        <a href="#" class="sidebar-toggle">
+                            <i class="far fa-bars"></i>
+                        </a>
+                        <div class="logo my-auto">
+                            <a href="index-2.html" class="custom-logo-link"><img src="assets/images/logo.png"
+                                    class="custom-logo" alt="ViewTube"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-7 my-auto d-none d-xl-block">
+                    <form class="ajax-search-form" action="#">
+                        <input type="text" name="s" class="keyword" placeholder="Search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                        <ul class="datafetch"></ul>
+                    </form>
+                </div>
+                <div class="col-xl-1 col-lg-1 my-auto text-right">
+                    <a class="upload-video" href="upload-video.html"><i class="far fa-video-plus"></i></a>
+                </div>
+                <div class="col-xl-2 col-lg-2 my-auto">
+                    <div class="d-flex">
+                        <div class="d-flex my-auto">
+                            <i class="fad fa-sun my-auto"></i>
+                            <label class="toggle-switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                        <div class="d-flex float-right">
+                            <div class="top-header-action">
+                                <div class="widget-header">
+                                    <div class="my-account-widget">
+                                        <div class="my-account-button">
+                                            <i class="fad fa-user"></i>
+                                        </div>
+                                        <div class="my-account-content">
+                                            <div class="header-profile-login">
+                                                <h6 class="text-center">Log In to Your Account</h6>
+                                                <form name="loginform" id="loginform" action="#" method="post">
+                                                    <p class="login-username">
+                                                        <label for="user_login">Username or Email Address</label>
+                                                        <input type="text" name="log" id="user_login" class="input"
+                                                            value="" size="20" />
+                                                    </p>
+                                                    <p class="login-password">
+                                                        <label for="user_pass">Password</label>
+                                                        <input type="password" id="user_pass" name="pwd">
+                                                    </p>
+                                                    <p class="login-remember"><label><input name="rememberme"
+                                                                type="checkbox" id="rememberme" value="forever" />
+                                                            Remember Me</label></p>
+                                                    <p class="login-submit">
+                                                        <input type="submit" name="wp-submit" id="wp-submit"
+                                                            class="button button-primary" value="Log In" />
+                                                    </p>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="off-canvas-menu-bar">
+        <div class="pl-30 pr-30">
+            <div class="row">
+                <div class="col-7 my-auto">
+                    <a href="index-2.html" class="custom-logo-link" rel="home" aria-current="page"><img width="512"
+                            height="85" src="assets/images/logo.png" class="custom-logo" alt="ViewTube"></a>
+                </div>
+                <div class="col-3 my-auto">
+                    <label class="toggle-switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div class="col-2 my-auto">
+                    <div class="mobile-nav-toggler"><span class="fas fa-bars"></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="off-canvas-menu">
+        <div class="menu-backdrop"></div>
+        <i class="close-btn fa fa-close"></i>
+        <nav class="mobile-nav">
+            <div class="text-center pt-3 pb-3">
+                <a href="index-2.html" class="custom-logo-link" rel="home"><img src="assets/images/logo.png"
+                        class="custom-logo" alt="Sayara"></a>
+            </div>
+            <ul class="navigation">
+            </ul>
+        </nav>
+    </div>
+    <div class="container-fluid p-0">
+        <div class="d-flex topspace-90">
+            <div class="sidebar-menu open">
+                <nav class="desktop-menu">
+                    <ul class="menu">
+                        <li class="menu-item current-menu-item"><a href="index-2.html"><i
+                                    class="fas fa-home"></i><span>Home</span></a></li>
+                        <li class="menu-item"><a href="blog.html"><i class="fab fa-wordpress"></i><span>Blog</span></a>
+                        </li>
+                        <li class="menu-item"><a href="archive.html"><i
+                                    class="fab fa-youtube"></i><span>Video</span></a></li>
+                        <li class="menu-item"><a href="archive.html"><i
+                                    class="fas fa-camera"></i><span>Action</span></a></li>
+                        <li class="menu-item"><a href="archive.html"><i
+                                    class="fab fa-amazon"></i><span>Adventure</span></a></li>
+                        <li class="menu-item"><a href="archive.html"><i
+                                    class="fas fa-podcast"></i><span>Drama</span></a></li>
+                        <li class="menu-item"><a href="archive.html"><i
+                                    class="fas fa-coffee"></i><span>Fantacy</span></a></li>
+                        <li class="menu-item"><a href="archive.html"><i
+                                    class="fas fa-gamepad"></i><span>Games</span></a></li>
+                        <li class="menu-item"><a href="archive.html"><i class="fas fa-burn"></i><span>Horror</span></a>
+                        </li>
+                        <li class="menu-item"><a href="archive.html"><i
+                                    class="fab fa-chrome"></i><span>Mystrey</span></a></li>
+                        <li class="menu-item"><a href="archive.html"><i
+                                    class="fas fa-newspaper"></i><span>News</span></a></li>
+                        <li class="menu-item"><a href="archive.html"><i
+                                    class="fas fa-heart"></i><span>Romance</span></a></li>
+                        <li class="menu-item"><a href="archive.html"><i class="fas fa-flask"></i><span>Science
+                                    fiction</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="main-container">
+                <form id="video-uploader" enctype="multipart/form-data">
+                    <div class="text-center mb-5">
+                        <h1 class="font-weight-bold">
+                            Upload Your Video
+                        </h1>
+                    </div>
+                    <input name="title" type="text" placeholder="Title">
+                    <textarea name="description" placeholder="Description"></textarea>
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#upload" role="tablist"><i
+                                    class="fas fa-upload"></i>Upload</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#url" role="tablist"><i
+                                    class="fas fa-link"></i>URL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#youtube" role="tablist"><i
+                                    class="fab fa-youtube"></i>Youtube</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#vimeo" role="tablist"><i
+                                    class="fab fa-vimeo-v"></i>Vimeo</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="upload">
+                            <div class="dropzone video">
+                                <input type="file" name="video-file" id="video-file">
+                                <label for="video-file"><strong>Choose a video</strong><span class="box__dragndrop">or
+                                        drag it here</span>.</label>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                        style="width: 0%"></div>
+                                </div>
+                            </div>
+                            <input name="video-caption-file" type="url" placeholder="video caption URL (Optional)">
+                        </div>
+                        <div class="tab-pane fade" id="url">
+                            <input name="url" type="url" placeholder="URL">
+                            <input name="video-caption-file" type="url" placeholder="video caption URL (Optional)">
+                        </div>
+                        <div class="tab-pane fade" id="youtube">
+                            <input name="youtube" type="url" placeholder="Youtube">
+                        </div>
+                        <div class="tab-pane fade" id="vimeo">
+                            <input name="vimeo" type="url" placeholder="Vimeo">
+                        </div>
+                    </div>
+                    <div class="dropzone thumbnail">
+                        <input type="file" name="thumbnail-file" id="thumbnail-file">
+                        <label for="thumbnail-file"><strong>Choose a thumbnail</strong><span class="box__dragndrop">or
+                                drag it here</span>.</label>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 0%">
+                            </div>
+                        </div>
+                    </div>
+                    <input name="video-duration" type="text" placeholder="Duration Examlpe: 2 h 40 min">
+                    <fieldset class="form-group">
+                        <div class="row">
+                            <div class="col-form-label col-sm-2 pt-0">
+                                Video resolution
+                            </div>
+                            <div class="col-sm-10">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="video-resolution" id="HD"
+                                        value="HD" checked>
+                                    <label class="form-check-label" for="HD">
+                                        HD
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="video-resolution" id="4K"
+                                        value="4K">
+                                    <label class="form-check-label" for="4K">
+                                        4K
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="video-resolution" id="8K"
+                                        value="8K">
+                                    <label class="form-check-label" for="8K">
+                                        8K
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <div class="row">
+                            <div class="col-form-label col-sm-2 pt-0">
+                                Video Display As
+                            </div>
+                            <div class="col-sm-10">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="video-display-as"
+                                        id="check-default" value="default" checked>
+                                    <label class="form-check-label" for="check-default">
+                                        Default
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="video-display-as"
+                                        id="check-youtube" value="youtube">
+                                    <label class="form-check-label" for="check-youtube">
+                                        YouTube
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="video-display-as"
+                                        id="check-vimeo" value="vimeo">
+                                    <label class="form-check-label" for="check-vimeo">
+                                        Vimeo
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <label>Category</label>
+                    <select name="category" class="form-control">
+                        <option value="Action">Action</option>
+                        <option value="Drama">Drama</option>
+                        <option value="Fantacy">Fantacy</option>
+                        <option value="Games">Games</option>
+                        <option value="Horror">Horror</option>
+                        <option value="Mistrey">Mistrey</option>
+                        <option value="News">News</option>
+                    </select>
+                    <a href="#" class="viewtube-btn" id="submit-video">Upload</a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row pt-100 pb-50">
+                <div class="col-md-12 text-center">
+                    <a href="index-2.html"><img class="mb-70" src="assets/images/logo-alt.png" alt="Logo"></a>
+                </div>
+                <div class="col-xl col-lg-4 col-md-6 col-sm-12">
+                    <h5>Product</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Video Player</a></li>
+                        <li><a href="#">Create</a></li>
+                        <li><a href="#">Live Streaming</a></li>
+                        <li><a href="#">Screen Recorder</a></li>
+                        <li><a href="#">Collaboration</a></li>
+                        <li><a href="#">Monetization</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl col-lg-4 col-md-6 col-sm-12">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Video School</a></li>
+                        <li><a href="#">OTT Resources</a></li>
+                        <li><a href="#">Developers</a></li>
+                        <li><a href="#">Students</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl col-lg-4 col-md-6 col-sm-12">
+                    <h5>Affiliate</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Become a Partner</a></li>
+                        <li><a href="#">Guidelines</a></li>
+                        <li><a href="#">Live Streaming</a></li>
+                        <li><a href="#">Hosting & Management</a></li>
+                        <li><a href="#">Monetization</a></li>
+                        <li><a href="#">Collaboration</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl col-lg-4 col-md-6 col-sm-12">
+                    <h5>Quick Link</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Live Streaming</a></li>
+                        <li><a href="#">Video Player</a></li>
+                        <li><a href="#">Screen Recorder</a></li>
+                        <li><a href="#">Monetization</a></li>
+                        <li><a href="#">Create</a></li>
+                        <li><a href="#">Collaboration</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl col-lg-4 col-md-6 col-sm-12">
+                    <h5>Contact</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Become a Partner</a></li>
+                        <li><a href="#">Guidelines</a></li>
+                        <li><a href="#">Live Streaming</a></li>
+                        <li><a href="#">Hosting & Management</a></li>
+                        <li><a href="#">Monetization</a></li>
+                        <li><a href="#">Collaboration</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row pb-4">
+                <div class="col-xl-4 col-md-6 my-auto">
+                    <ul class="list-inline social mb-0">
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-2 offset-xl-4 col-md-3">
+                    <a href="#">
+                        <img class="img-fluid" src="assets/images/playstore.png" title="playstore" alt="playstore">
+                    </a>
+                </div>
+                <div class="col-xl-2 col-md-3 my-auto">
+                    <a href="#">
+                        <img class="img-fluid" src="assets/images/appstore.png" title="appstore" alt="appstore">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-bar">
+            <div class="col-sm-12 text-center">
+                <p>Copyright © 2021 ViewTube All Rights Reserved. </p>
+            </div>
+        </div>
+    </footer>
+    <div id="backtotop" style="display: block;"><i class="fal fa-lg fa-arrow-up"></i></div>
+    <script src='assets/js/plugins.js'></script>
+    <script src='assets/js/main.js'></script>
+</body>
+
+<!-- Mirrored from themebing.com/html/viewtube/upload-video.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 Jan 2022 05:04:34 GMT -->
+
+</html>

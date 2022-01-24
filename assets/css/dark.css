@@ -1,0 +1,128 @@
+.wp-block-calendar table th,
+.sidebar-menu.open,
+.input-text,
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="text"],
+input[type="url"],
+textarea,
+.post-type-archive-video .main-container,
+.tax-video_category .main-container,
+.elementor-page .main-container,
+.off-canvas-menu-bar.fixed-top,
+.related-posts,
+.my-account-content ul li:hover a,
+.site-header.fixed-top {
+  background: unset;
+}
+
+.blog-item,
+.comment-respond,
+.my-account-content,
+select,
+.off-canvas-menu .mobile-nav,
+.off-canvas-menu-bar.fixed-top,
+.site-header.fixed-top,
+.single-post .post-share ul li a,
+.entry-content,
+.widget,
+#video-uploader,
+.tags,
+.pagination .nav-links .page-numbers,
+.post-navigation,
+.comments-area {
+  background: #181818;
+}
+
+body,
+pre,
+blockquote,
+.sidebar-toggle,
+#preloader,
+.tags > a,
+.tagcloud a,
+.single-post .post-share ul li a,
+.main-container {
+  background: #111;
+}
+
+th,
+td,
+pre,
+cite,
+select,
+b,
+strong,
+.off-canvas-menu .navigation li,
+.sidebar-menu.open,
+.widget-title,
+.input-text,
+.sidebar-toggle,
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="text"],
+input[type="url"],
+textarea,
+.wp-calendar-table caption,
+.off-canvas-menu .navigation li > a,
+.entry-meta a,
+.tags > a,
+.tagcloud a,
+.commenter a,
+.single-post .post-share ul li a,
+.sidebar-menu.open .desktop-menu ul li a,
+.widget li a,
+.video-item-card .author,
+body,
+p {
+  color: #a9a9a9 !important;
+}
+
+.bg-gray {
+  background: unset;
+}
+
+.my-account-button i {
+  background: #efefef;
+}
+
+.my-account-content ul li a,
+.pagination .nav-links .page-numbers,
+.sidebar-menu.open .desktop-menu ul li.current-menu-item a:hover,
+.sidebar-menu.open .desktop-menu ul li a:hover,
+.sticky .blog-item p,
+.banner .banner-content p,
+.blog-content a,
+.blog--content a,
+.widget-title,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff !important;
+}
+
+.off-canvas-menu .navigation li,
+.sidebar-menu.open,
+.widget-title,
+.input-text,
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="text"],
+input[type="url"],
+textarea {
+  border-color: #383838;
+}
+
+blockquote:before {
+  color: #2d2d2d;
+}
+
+table th {
+  background: transparent;
+}

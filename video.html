@@ -1,0 +1,671 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Mirrored from themebing.com/html/viewtube/video.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 Jan 2022 05:04:39 GMT -->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ViewTube Template</title>
+    <link rel="icon" href="assets/images/thumbnail.png">
+    <link rel="stylesheet"
+        href='https://fonts.googleapis.com/css?family=Fira+Sans+Condensed%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7COpen+Sans%3A300%2C400%2C600%2C700%2C800'>
+    <link rel="stylesheet" href='assets/css/default.css'>
+    <link rel="stylesheet" href='assets/css/plugins.css'>
+    <link rel="stylesheet" href='assets/css/style.css'>
+    <link rel="stylesheet" href='assets/css/color.css'>
+    <link id="template-color" rel="stylesheet" href='assets/css/color.css'>
+</head>
+
+<body class="single-video">
+
+    <div id="preloader">
+        <div class="spinner">
+            <div class="uil-ripple-css">
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <header class="site-header fixed-top">
+        <div class="container-fluid">
+            <div class="row justify-content-between">
+                <div class="col-xl-2 col-lg-2 my-auto d-none d-lg-block">
+                    <div class="d-flex">
+                        <a href="#" class="sidebar-toggle">
+                            <i class="far fa-bars"></i>
+                        </a>
+                        <div class="logo my-auto">
+                            <a href="index-2.html" class="custom-logo-link"><img src="assets/images/logo.png"
+                                    class="custom-logo" alt="ViewTube"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-7 my-auto d-none d-xl-block">
+                    <form class="ajax-search-form" action="#">
+                        <input type="text" name="s" class="keyword" placeholder="Search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                        <ul class="datafetch"></ul>
+                    </form>
+                </div>
+                <div class="col-xl-1 col-lg-1 my-auto text-right">
+                    <a class="upload-video" href="upload-video.html"><i class="far fa-video-plus"></i></a>
+                </div>
+                <div class="col-xl-2 col-lg-2 my-auto">
+                    <div class="d-flex">
+                        <div class="d-flex my-auto">
+                            <i class="fad fa-sun my-auto"></i>
+                            <label class="toggle-switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                        <div class="d-flex float-right">
+                            <div class="top-header-action">
+                                <div class="widget-header">
+                                    <div class="my-account-widget">
+                                        <div class="my-account-button">
+                                            <i class="fad fa-user"></i>
+                                        </div>
+                                        <div class="my-account-content">
+                                            <div class="header-profile-login">
+                                                <h6 class="text-center">Log In to Your Account</h6>
+                                                <form name="loginform" id="loginform" action="#" method="post">
+                                                    <p class="login-username">
+                                                        <label for="user_login">Username or Email Address</label>
+                                                        <input type="text" name="log" id="user_login" class="input"
+                                                            value="" size="20" />
+                                                    </p>
+                                                    <p class="login-password">
+                                                        <label for="user_pass">Password</label>
+                                                        <input type="password" id="user_pass" name="pwd">
+                                                    </p>
+                                                    <p class="login-remember"><label><input name="rememberme"
+                                                                type="checkbox" id="rememberme" value="forever" />
+                                                            Remember Me</label></p>
+                                                    <p class="login-submit">
+                                                        <input type="submit" name="wp-submit" id="wp-submit"
+                                                            class="button button-primary" value="Log In" />
+                                                    </p>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="off-canvas-menu-bar">
+        <div class="pl-30 pr-30">
+            <div class="row">
+                <div class="col-7 my-auto">
+                    <a href="index-2.html" class="custom-logo-link" rel="home" aria-current="page"><img width="512"
+                            height="85" src="assets/images/logo.png" class="custom-logo" alt="ViewTube"></a>
+                </div>
+                <div class="col-3 my-auto">
+                    <label class="toggle-switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div class="col-2 my-auto">
+                    <div class="mobile-nav-toggler"><span class="fas fa-bars"></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="off-canvas-menu">
+        <div class="menu-backdrop"></div>
+        <i class="close-btn fa fa-close"></i>
+        <nav class="mobile-nav">
+            <div class="text-center pt-3 pb-3">
+                <a href="index-2.html" class="custom-logo-link" rel="home"><img src="assets/images/logo.png"
+                        class="custom-logo" alt="Sayara"></a>
+            </div>
+            <ul class="navigation">
+            </ul>
+        </nav>
+    </div>
+    <div class="container-fluid p-0">
+        <div class="d-flex topspace-90">
+            <div class="sidebar-menu open">
+                <nav class="desktop-menu">
+                    <ul class="menu">
+                        <li class="menu-item current-menu-item"><a href="index-2.html"><i
+                                    class="fas fa-home"></i><span>Home</span></a></li>
+                        <li class="menu-item"><a href="blog.html"><i class="fab fa-wordpress"></i><span>Blog</span></a>
+                        </li>
+                        <li class="menu-item"><a href="archive.html"><i
+                                    class="fab fa-youtube"></i><span>Video</span></a></li>
+                        <li class="menu-item"><a href="archive.html"><i
+                                    class="fas fa-camera"></i><span>Action</span></a></li>
+                        <li class="menu-item"><a href="archive.html"><i
+                                    class="fab fa-amazon"></i><span>Adventure</span></a></li>
+                        <li class="menu-item"><a href="archive.html"><i
+                                    class="fas fa-podcast"></i><span>Drama</span></a></li>
+                        <li class="menu-item"><a href="archive.html"><i
+                                    class="fas fa-coffee"></i><span>Fantacy</span></a></li>
+                        <li class="menu-item"><a href="archive.html"><i
+                                    class="fas fa-gamepad"></i><span>Games</span></a></li>
+                        <li class="menu-item"><a href="archive.html"><i class="fas fa-burn"></i><span>Horror</span></a>
+                        </li>
+                        <li class="menu-item"><a href="archive.html"><i
+                                    class="fab fa-chrome"></i><span>Mystrey</span></a></li>
+                        <li class="menu-item"><a href="archive.html"><i
+                                    class="fas fa-newspaper"></i><span>News</span></a></li>
+                        <li class="menu-item"><a href="archive.html"><i
+                                    class="fas fa-heart"></i><span>Romance</span></a></li>
+                        <li class="menu-item"><a href="archive.html"><i class="fas fa-flask"></i><span>Science
+                                    fiction</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="main-container">
+                <section class="bg-gray pt-4 pr-15 pl-15">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xl-8 col-md-7">
+                                <video class="viewtube-player-single" preload="none" playsinline controls
+                                    data-poster="assets/images/5465.jpg">
+                                    <source
+                                        src="https://www.dropbox.com/s/dmdvpq368yoxgy1/Disney-and-Pixar-s-Luca-Teaser-Trailer.mp4?dl=1"
+                                        type="video/mp4" />
+                                    <source
+                                        src="https://www.dropbox.com/s/dmdvpq368yoxgy1/Disney-and-Pixar-s-Luca-Teaser-Trailer.mp4?dl=1"
+                                        type="video/webm" />
+                                </video>
+                                <ul class="video-meta">
+                                    <li>
+                                        <i class="fas fa-eye"></i>1260 Views
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-tags"></i> <a href="archive.html">Action</a>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-photo-video"></i>
+                                        2 h 20 min
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-calendar-alt"></i>
+                                        Nov 2020
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-film"></i>
+                                        4K
+                                    </li>
+                                </ul>
+                                <div class="container-fluid">
+                                    <div class="row mt-15 mb-15">
+                                        <div class="col-sm-6 my-auto">
+                                            <div class="video-like">
+                                                <a href="#" title="Like" class="mr-4 like-button" data-id="57"><i
+                                                        class="fas fa-thumbs-up"></i> <span>103</span></a>
+                                                <a href="#" title="Dislike" class="mr-4 dislike-button" data-id="57"><i
+                                                        class="fas fa-thumbs-down"></i> <span>6</span></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 my-auto">
+                                            <div class="video-shere">
+                                                <h5 class="mb-0">Share</h5>
+                                                <div class="social-share">
+                                                    <ul class="list-inline-item mb-0">
+                                                        <li class="list-inline-item"><a href="#"><i
+                                                                    class="fab fa-facebook-f"></i></a></li>
+                                                        <li class="list-inline-item"><a href="#"><i
+                                                                    class="fab fa-twitter"></i></a></li>
+                                                        <li class="list-inline-item"><a href="#"><i
+                                                                    class="fab fa-pinterest"> </i></a></li>
+                                                        <li class="list-inline-item"><a href="#"><i
+                                                                    class="fab fa-linkedin-in"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex content-creator justify-content-between">
+                                    <div class="my-auto">
+                                        <a href="#">
+                                            <img src="assets/images/6b1345063abbc415fde0677567f2cf59.jpg"
+                                                alt="Bayley Robertson"></a>
+                                        <span class="pl-10"> Bayley Robertson</span>
+                                    </div>
+                                    <div class="my-auto">
+                                        <a href="#" class="viewtube-btn subscribe">Subscribe</a>
+                                    </div>
+                                </div>
+                                <div class="entry-content">
+                                    <h1 class="video-entry-title">Disney and Pixar’s Luca | Teaser Trailer</h1>
+                                    <p>Aenean in mi ut enim fringilla porta id eget nulla. Nulla rutrum nisl id nisl
+                                        finibus, et feugiat orci porta. Aliquam erat volutpat. Nullam facilisis sed
+                                        felis id condimentum. Curabitur condimentum risus ultrices dignissim vehicula.
+                                        Sed quis accumsan turpis. Morbi lacinia tincidunt tellus, sed efficitur leo
+                                        tincidunt nec.</p>
+                                    <h4>The Ultimate Guide To Sports</h4>
+                                    <p>Etiam gravida euismod sodales. Vestibulum sed egestas sapien, sit amet iaculis
+                                        eros. Suspendisse pulvinar, erat sed interdum auctor, eros ligula tempus quam,
+                                        in congue est nunc et turpis. Nam non nisi sed sem placerat semper. Proin
+                                        egestas, odio eu semper mattis, enim odio pulvinar leo, ac vestibulum sapien
+                                        nulla non arcu.</p>
+                                    <p>Mauris sed venenatis libero, Pellentesque elementum ante massa, ac ornare augue
+                                        molestie ut. Suspendisse lacinia tortor sem, at condimentum nulla auctor in. Sed
+                                        vulputate euismod risus, eget auctor nulla aliquet sed.</p>
+                                    <div class="wp-block-spacer" aria-hidden="true"></div>
+                                    <blockquote class="wp-block-quote">
+                                        <p>Nullam id viverra elit, at posuere neque. Proin non semper nisl. Etiam
+                                            placerat, eros nec laoreet condimentum</p>
+                                        <p><cite>Jhon Doe</cite></p>
+                                    </blockquote>
+                                    <div class="wp-block-spacer" aria-hidden="true"></div>
+                                    <p>Nunc consequat quam tincidunt, mattis purus et, euismod eros. Donec sed lobortis
+                                        nunc. Donec a pretium ipsum. Curabitur pellentesque neque et dictum interdum.
+                                        Nam eu faucibus augue, id sagittis magna. Aliquam sodales est dolor, non
+                                        convallis arcu feugiat a. Curabitur dictum dapibus nisl quis convallis. Morbi
+                                        nec ex vestibulum, tincidunt sapien a, pretium arcu.</p>
+                                    <h4>Pellentesque elementum ante massa</h4>
+                                    <ul>
+                                        <li>Suspendisse gravida risus in sapien sollicitudin, quis pulvinar neque
+                                            congue.</li>
+                                        <li>Quisque mollis enim nec lacus elementum vulputate.</li>
+                                        <li>Nullam fermentum turpis a nisl tristique, quis rutrum quam eleifend.</li>
+                                        <li>Donec placerat orci id lobortis suscipit.</li>
+                                        <li>Fusce quis massa rutrum, accumsan nibh vitae, hendrerit turpis.</li>
+                                        <li>Etiam dignissim mauris at orci finibus, quis blandit nisl cursus.</li>
+                                    </ul>
+                                    <p>Aenean in mi ut enim fringilla porta id eget nulla. Nulla rutrum nisl id nisl
+                                        finibus, et feugiat orci porta. Aliquam erat volutpat. Nullam facilisis sed
+                                        felis id condimentum. Curabitur condimentum risus ultrices dignissim vehicula.
+                                        Sed quis accumsan turpis. Morbi lacinia tincidunt tellus, sed efficitur leo
+                                        tincidunt nec. Pellentesque ac lorem egestas, volutpat neque et, ullamcorper
+                                        est.</p>
+                                    <p>Pellentesque elementum ante massa, ac ornare augue molestie ut. Suspendisse
+                                        lacinia tortor sem, at condimentum nulla auctor in. Sed vulputate euismod risus,
+                                        eget auctor nulla aliquet sed.</p>
+                                </div>
+                                <nav class="navigation post-navigation" role="navigation" aria-label="Posts">
+                                    <h2 class="screen-reader-text">Post navigation</h2>
+                                    <div class="nav-links">
+                                        <div class="nav-previous"><a href="#" rel="prev">« Previous Video</a></div>
+                                        <div class="nav-next"><a href="#" rel="next">Next Video »</a></div>
+                                    </div>
+                                </nav>
+                                <div class="pb-100">
+                                    <div id="comments" class="comments-area">
+                                        <div id="respond" class="comment-respond">
+                                            <h3 id="reply-title" class="comment-reply-title">Leave a Reply</h3>
+                                            <form action="#" method="post" id="commentform" class="comment-form row">
+                                                <p class="logged-in-as">
+                                                    <a href="#"
+                                                        aria-label="Logged in as admin. Edit your profile.">Logged in as
+                                                        admin</a>.<a href="#">Log out?</a>
+                                                </p>
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-xl-6">
+                                                            <input type="text" placeholder="First Name">
+                                                        </div>
+                                                        <div class="col-xl-6">
+                                                            <input type="text" placeholder="Last Name">
+                                                        </div>
+                                                        <div class="col-xl-12">
+                                                            <textarea id="comment" name="comment"
+                                                                placeholder="Type your comment...."
+                                                                aria-required="true"></textarea>
+                                                        </div>
+                                                        <div class="col-lg-12"><button type="submit">Post
+                                                                Comment</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-5">
+                                <div id="custom_html-2" class="widget_text widget widget-video widget_custom_html">
+                                    <div class="textwidget custom-html-widget"><a
+                                            href="https://1.envato.market/c/2317554/903979/4415?subId1=html_homepage"
+                                            target="_top" id="903979" rel="noopener"><img
+                                                src="http://a.impactradius-go.com/display-ad/4415-903979" border="0"
+                                                alt="Image" width="970" height="250"></a><img height="0" width="0"
+                                            src="https://1.envato.market/i/2317554/903979/4415" alt="Ad"
+                                            style="position:absolute;visibility:hidden;" border="0"></div>
+                                </div>
+                                <div id="viewtube_related_videos-2"
+                                    class="widget widget-video widget_viewtube_related_videos">
+                                    <ul class="sidebar-related-video">
+                                        <li>
+                                            <div class="related-video-thumb">
+                                                <a href="video.html">
+                                                    <img src="assets/images/index-210x120.jpg" alt="Image"> </a>
+                                            </div>
+                                            <div class="related-video-content">
+                                                <p>
+                                                    <a href="video.html">Remaking our first cat scratching post</a>
+                                                </p>
+                                                <ul>
+                                                    <li>
+                                                        <a class="author" href="#">
+                                                            Bayley Robertson </a>
+                                                    </li>
+                                                    <li>
+                                                        <div class="d-flex video-meta-bottom">
+                                                            703 Views •
+                                                            5 months ago </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="related-video-thumb">
+                                                <a href="video.html">
+                                                    <img src="assets/images/3CyBWp8Lb9U-210x120.jpg" alt="Image"> </a>
+                                            </div>
+                                            <div class="related-video-content">
+                                                <p>
+                                                    <a href="video.html">Xiaomi Mi 11 vs OnePlus 8 Pro – SPEED TEST!</a>
+                                                </p>
+                                                <ul>
+                                                    <li>
+                                                        <a class="author" href="#">
+                                                            Chenai Simon </a>
+                                                    </li>
+                                                    <li>
+                                                        <div class="d-flex video-meta-bottom">
+                                                            329 Views •
+                                                            5 months ago </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="related-video-thumb">
+                                                <a href="video.html">
+                                                    <img src="assets/images/maxresdefault-210x120.jpg" alt="Image"> </a>
+                                            </div>
+                                            <div class="related-video-content">
+                                                <p>
+                                                    <a href="video.html">I’m Leaving YouTube</a>
+                                                </p>
+                                                <ul>
+                                                    <li>
+                                                        <a class="author" href="#">
+                                                            David Parker </a>
+                                                    </li>
+                                                    <li>
+                                                        <div class="d-flex video-meta-bottom">
+                                                            128 Views •
+                                                            5 months ago </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="related-video-thumb">
+                                                <a href="video.html">
+                                                    <img src="assets/images/BjCwUk06ZSk-210x120.jpg" alt="Image">
+                                                </a>
+                                            </div>
+                                            <div class="related-video-content">
+                                                <p>
+                                                    <a href="video.html">Return to the Sinnoh region in Pokémon
+                                                        Brilliant Diamond ...</a>
+                                                </p>
+                                                <ul>
+                                                    <li>
+                                                        <a class="author" href="#">
+                                                            Harry Olson </a>
+                                                    </li>
+                                                    <li>
+                                                        <div class="d-flex video-meta-bottom">
+                                                            105 Views •
+                                                            5 months ago </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="related-video-thumb">
+                                                <a href="video.html">
+                                                    <img src="assets/images/FYU-N2RWfso-210x120.jpg" alt="Image"> </a>
+                                            </div>
+                                            <div class="related-video-content">
+                                                <p>
+                                                    <a href="video.html">What will SpaceX do when they get to Mars?</a>
+                                                </p>
+                                                <ul>
+                                                    <li>
+                                                        <a class="author" href="#">
+                                                            David Parker </a>
+                                                    </li>
+                                                    <li>
+                                                        <div class="d-flex video-meta-bottom">
+                                                            409 Views •
+                                                            5 months ago </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="related-video-thumb">
+                                                <a href="video.html">
+                                                    <img src="assets/images/SIJAEcOL6sI-210x120.jpg" alt="Image"> </a>
+                                            </div>
+                                            <div class="related-video-content">
+                                                <p>
+                                                    <a href="video.html">This Laptop has NO Laptop Inside – What??</a>
+                                                </p>
+                                                <ul>
+                                                    <li>
+                                                        <a class="author" href="#">
+                                                            Chenai Simon </a>
+                                                    </li>
+                                                    <li>
+                                                        <div class="d-flex video-meta-bottom">
+                                                            97 Views •
+                                                            5 months ago </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="related-video-thumb">
+                                                <a href="video.html">
+                                                    <img src="assets/images/Zv11L-ZfrSg-210x120.jpg" alt="Image"> </a>
+                                            </div>
+                                            <div class="related-video-content">
+                                                <p>
+                                                    <a href="video.html">Ultimate Wild Animals Collection</a>
+                                                </p>
+                                                <ul>
+                                                    <li>
+                                                        <a class="author" href="#">
+                                                            Harry Olson </a>
+                                                    </li>
+                                                    <li>
+                                                        <div class="d-flex video-meta-bottom">
+                                                            185 Views •
+                                                            5 months ago </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="related-video-thumb">
+                                                <a href="video.html">
+                                                    <img src="assets/images/3-MNAX1jgbA-210x120.jpg" alt="Image"> </a>
+                                            </div>
+                                            <div class="related-video-content">
+                                                <p>
+                                                    <a href="video.html">Testing the Curiosity Rover on Earth</a>
+                                                </p>
+                                                <ul>
+                                                    <li>
+                                                        <a class="author" href="#">
+                                                            Bayley Robertson </a>
+                                                    </li>
+                                                    <li>
+                                                        <div class="d-flex video-meta-bottom">
+                                                            200 Views •
+                                                            5 months ago </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="related-video-thumb">
+                                                <a href="video.html">
+                                                    <img src="assets/images/vGN6dixRBZA-210x120.jpg" alt="Image"> </a>
+                                            </div>
+                                            <div class="related-video-content">
+                                                <p>
+                                                    <a href="video.html">We are in a new Crysis Era!</a>
+                                                </p>
+                                                <ul>
+                                                    <li>
+                                                        <a class="author" href="#">
+                                                            Chenai Simon </a>
+                                                    </li>
+                                                    <li>
+                                                        <div class="d-flex video-meta-bottom">
+                                                            298 Views •
+                                                            5 months ago </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="related-video-thumb">
+                                                <a href="video.html">
+                                                    <img src="assets/images/FMvppuS_ehg-210x120.jpg" alt="Image"> </a>
+                                            </div>
+                                            <div class="related-video-content">
+                                                <p>
+                                                    <a href="video.html">FLYING Leaf Blower RC airplane Mk2</a>
+                                                </p>
+                                                <ul>
+                                                    <li>
+                                                        <a class="author" href="#">
+                                                            David Parker </a>
+                                                    </li>
+                                                    <li>
+                                                        <div class="d-flex video-meta-bottom">
+                                                            75 Views •
+                                                            5 months ago </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row pt-100 pb-50">
+                <div class="col-md-12 text-center">
+                    <a href="index-2.html"><img class="mb-70" src="assets/images/logo-alt.png" alt="Logo"></a>
+                </div>
+                <div class="col-xl col-lg-4 col-md-6 col-sm-12">
+                    <h5>Product</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Video Player</a></li>
+                        <li><a href="#">Create</a></li>
+                        <li><a href="#">Live Streaming</a></li>
+                        <li><a href="#">Screen Recorder</a></li>
+                        <li><a href="#">Collaboration</a></li>
+                        <li><a href="#">Monetization</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl col-lg-4 col-md-6 col-sm-12">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Video School</a></li>
+                        <li><a href="#">OTT Resources</a></li>
+                        <li><a href="#">Developers</a></li>
+                        <li><a href="#">Students</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl col-lg-4 col-md-6 col-sm-12">
+                    <h5>Affiliate</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Become a Partner</a></li>
+                        <li><a href="#">Guidelines</a></li>
+                        <li><a href="#">Live Streaming</a></li>
+                        <li><a href="#">Hosting & Management</a></li>
+                        <li><a href="#">Monetization</a></li>
+                        <li><a href="#">Collaboration</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl col-lg-4 col-md-6 col-sm-12">
+                    <h5>Quick Link</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Live Streaming</a></li>
+                        <li><a href="#">Video Player</a></li>
+                        <li><a href="#">Screen Recorder</a></li>
+                        <li><a href="#">Monetization</a></li>
+                        <li><a href="#">Create</a></li>
+                        <li><a href="#">Collaboration</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl col-lg-4 col-md-6 col-sm-12">
+                    <h5>Contact</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Become a Partner</a></li>
+                        <li><a href="#">Guidelines</a></li>
+                        <li><a href="#">Live Streaming</a></li>
+                        <li><a href="#">Hosting & Management</a></li>
+                        <li><a href="#">Monetization</a></li>
+                        <li><a href="#">Collaboration</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row pb-4">
+                <div class="col-xl-4 col-md-6 my-auto">
+                    <ul class="list-inline social mb-0">
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-2 offset-xl-4 col-md-3">
+                    <a href="#">
+                        <img class="img-fluid" src="assets/images/playstore.png" title="playstore" alt="playstore">
+                    </a>
+                </div>
+                <div class="col-xl-2 col-md-3 my-auto">
+                    <a href="#">
+                        <img class="img-fluid" src="assets/images/appstore.png" title="appstore" alt="appstore">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-bar">
+            <div class="col-sm-12 text-center">
+                <p>Copyright © 2021 ViewTube All Rights Reserved. </p>
+            </div>
+        </div>
+    </footer>
+    <div id="backtotop" style="display: block;"><i class="fal fa-lg fa-arrow-up"></i></div>
+    <script src='assets/js/plugins.js'></script>
+    <script src='assets/js/main.js'></script>
+</body>
+
+<!-- Mirrored from themebing.com/html/viewtube/video.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 Jan 2022 05:04:46 GMT -->
+
+</html>
